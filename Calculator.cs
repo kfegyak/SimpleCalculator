@@ -36,7 +36,6 @@ namespace testing
         public static double multiply(double num1, double num2)
         {
             double product = num1 * num2;
-
             return product;
         }
         
@@ -44,7 +43,6 @@ namespace testing
         public static double divide(double num1, double num2)
         {
             double quotient = num1 / num2;
-
             return quotient;
         }
 
@@ -52,7 +50,6 @@ namespace testing
         public static double add(double num1, double num2)
         {
             double sum = num1 + num2;
-
             return sum;
         }
 
@@ -60,7 +57,6 @@ namespace testing
         public static double subtract(double num1, double num2)
         {
             double difference = num1 - num2;
-
             return difference;
         }
 
@@ -68,9 +64,7 @@ namespace testing
         public static double modulus(double num1, double num2)
         {
             double remainder = num1 % num2;
-
             return remainder;
-        }
-        
+        }  
     }
 }
